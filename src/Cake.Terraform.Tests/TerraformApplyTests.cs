@@ -157,7 +157,7 @@ namespace Cake.Terraform.Tests
                  Assert.Equal("apply \"plan.out\"", result.Args);
             }
 
-             [Fact]
+            [Fact]
             public void Should_set_parallelism()
             {
                 var fixture = new Fixture
